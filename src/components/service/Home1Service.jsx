@@ -8,13 +8,13 @@ const Home1Service = () => {
                 <div className="row justify-content-between align-items-end mb-80 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div className="col-lg-4">
                         <div className="section-title">
-                            <span>Our Construction Services</span>
+                            <span>Our Services</span>
                             <h2>Services Tailored You.</h2>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="section-content">
-                            <p>We understand your needs and delivery digitaloi marketing through unique selling oneto homeles proposition Our team of expert.</p>
+                            <p>At ApexSolutions, we specialize in the mining of premium natural stones and provide seamless import and export services, delivering quality marble and engineered stones worldwide.</p>
                         </div>
                     </div>
                 </div>
@@ -22,61 +22,78 @@ const Home1Service = () => {
                     <div className="col-lg-12">
                         <ul className="sevices-wrap">
                             <li className="single-services mb-20 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Residential <span>Construction</span></Link></h3>
+                                <h3><Link href="/services/service-details">Import <span>Marbles | Stones | Minerals</span></Link></h3>
                                 <div className="content">
-                                    <p>Health and care consulting refers to the practice of providing expert
-                                        advice and guidance.</p>
+                                    <p>Importing Premium Stones to Elevate Every Space with Excellence.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/services">Family Homes</Link></li>
-                                        <li><Link href="/services">Single Home</Link></li>
-                                        <li><Link href="/services">Custom Homes</Link></li>
-                                        <li><Link href="/services">Home Additions</Link></li>
-                                        <li><Link href="/services">Renovations</Link></li>
-                                        <li><Link href="/services">Remodeling</Link></li>
+                                        <li><Link href="/services">COPPER </Link></li>
+                                        <li><Link href="/services">BAUXITE </Link></li>
+                                        <li><Link href="/services">CALCIUM CARBONATE</Link></li>
+                                        <li><Link href="/services">QUARTZ</Link></li>
+                                        <li><Link href="/services">ARMANI GREY</Link></li>
+                                        <li><Link href="/services">SILVER TERVENTINE</Link></li>
+                                        <li><Link href="/services"> ZIARAT WHITE </Link></li>
+                                        <li><Link href="/services"> BLACK PANTHER </Link></li>
+                                        <li><Link href="/services">MARQUIQNA </Link></li>
+                                        <li><Link href="/services">SILVER DRAGON </Link></li>
+                                        <li><Link href="/services">CARRARA CLOUD </Link></li>
+                                        <li><Link href="/services">CALACUTTA PANDA </Link></li>
+                                        <li><Link href="/services">ARBESCATO VIOLA </Link></li>
+                                        <li><Link href="/services"> ARBESCATO CORCHIA </Link></li>
+                                        <li><Link href="/services">CALACUTTA FOREST </Link></li>
+                                        <li><Link href="/services">CALACUTTA ORO </Link></li>
+                                        <li><Link href="/services">CALACUTTA LINCOLN </Link></li>
                                     </ul>
                                 </div>
                                 <div className="button-area">
-                                    <Link href="/services/service-details">
+                                    <Link href="/services">
                                         <i className="bi bi-arrow-right" />
                                     </Link>
                                 </div>
                             </li>
                             <li className="single-services mb-20 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Commercial <span>Construction</span></Link></h3>
+                                <h3><Link href="/services/service-details">Export <span>Marbles | Stones | Minerals</span></Link></h3>
                                 <div className="content">
-                                    <p>Health and care consulting refers to the practice of providing expert
-                                        advice and guidance.</p>
+                                      <p>Export Premium Stones to Elevate Every Space with Excellence.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/services">Office Buildings</Link></li>
-                                        <li><Link href="/services">Retail Spaces</Link></li>
-                                        <li><Link href="/services">Restaurants</Link></li>
-                                        <li><Link href="/services">Hotels</Link></li>
-                                        <li><Link href="/services">Hospitality</Link></li>
-                                        <li><Link href="/services">Medical Facilities</Link></li>
+                                        <li><Link href="/services">COPPER </Link></li>
+                                        <li><Link href="/services">BAUXITE </Link></li>
+                                        <li><Link href="/services">CALCIUM CARBONATE</Link></li>
+                                        <li><Link href="/services">QUARTZ</Link></li>
+                                        <li><Link href="/services">ARMANI GREY</Link></li>
+                                        <li><Link href="/services">SILVER TERVENTINE</Link></li>
+                                        <li><Link href="/services"> ZIARAT WHITE </Link></li>
+                                        <li><Link href="/services"> BLACK PANTHER </Link></li>
+                                        <li><Link href="/services">MARQUIQNA </Link></li>
+                                        <li><Link href="/services">SILVER DRAGON </Link></li>
+                                        <li><Link href="/services">CARRARA CLOUD </Link></li>
+                                        <li><Link href="/services">CALACUTTA PANDA </Link></li>
+                                        <li><Link href="/services">ARBESCATO VIOLA </Link></li>
+                                        <li><Link href="/services"> ARBESCATO CORCHIA </Link></li>
+                                        <li><Link href="/services">CALACUTTA FOREST </Link></li>
+                                        <li><Link href="/services">CALACUTTA ORO </Link></li>
+                                        <li><Link href="/services">CALACUTTA LINCOLN </Link></li>
                                     </ul>
                                 </div>
                                 <div className="button-area">
-                                    <Link href="/services/service-details">
+                                    <Link href="/services">
                                         <i className="bi bi-arrow-right" />
                                     </Link>
                                 </div>
                             </li>
                             <li className="single-services wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Industrial <span>Construction</span></Link></h3>
+                                <h3><Link href="/services">Mining <span>Minerals</span></Link></h3>
                                 <div className="content">
-                                    <p>Health and care consulting refers to the practice of providing expert
-                                        advice and guidance.</p>
+                                    <p>Extracting Nature’s Finest Minerals with Precision and Care.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/services">Factories</Link></li>
-                                        <li><Link href="/services">Warehouses</Link></li>
-                                        <li><Link href="/services">Distribution Centers</Link></li>
-                                        <li><Link href="/services">Manufacturing Plants</Link></li>
-                                        <li><Link href="/services">Energy</Link></li>
-                                        <li><Link href="/services">Utilities</Link></li>
+                                        <li><Link href="/services">COPPER </Link></li>
+                                        <li><Link href="/services">BAUXITE </Link></li>
+                                        <li><Link href="/services">CALCIUM CARBONATE </Link></li>
+                                        <li><Link href="/services">QUARTZ</Link></li>
                                     </ul>
                                 </div>
                                 <div className="button-area">
-                                    <Link href="/services/service-details">
+                                    <Link href="/services">
                                         <i className="bi bi-arrow-right" />
                                     </Link>
                                 </div>

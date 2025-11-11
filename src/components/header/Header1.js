@@ -102,7 +102,7 @@ const Header1 = ({ style = "", fluid }) => {
 
                 <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
                     <div className="sidebar-logo-wrap">
-                        <Link href="/"><img alt="image" src="/assets/img/header-logo.svg" /></Link>
+                        <Link href="/"><img alt="image" src="/assets/img/apex-icon1 (1).png" /></Link>
                     </div>
                     <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
                         <i className="bi bi-x" />
@@ -126,7 +126,7 @@ const Header1 = ({ style = "", fluid }) => {
                                 </div>
                                 <div className="content">
                                     <span>CALL ANY TIME</span>
-                                    <h6><a href="tel:29658718617">2-965-871-8617</a></h6>
+                                    <h6><a href="tel:+922132424292">+92-21-32424292</a></h6>
                                 </div>
                             </div>
                             <svg className="arrow" width={8} height={29} viewBox="0 0 8 29" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@ const Header1 = ({ style = "", fluid }) => {
                                 </div>
                                 <div className="content">
                                     <span>ADDRESS</span>
-                                    <h6><a href="#">Dhaka, Bangladesh</a></h6>
+                                    <h6><a href="#">Karachi,Pakistan</a></h6>
                                 </div>
                             </div>
                             <svg className="arrow" width={8} height={29} viewBox="0 0 8 29" xmlns="http://www.w3.org/2000/svg">
@@ -159,35 +159,36 @@ const Header1 = ({ style = "", fluid }) => {
                                 </div>
                                 <div className="content">
                                     <span>SAY HELLO</span>
-                                    <h6><a href="mailto:info@example.com">info@example.com</a></h6>
+                                    <h6><a href="mailto:info@example.com"> info@apexsurfacessolution.com </a></h6>
                                 </div>
                             </div>
                         </li>
+                        
                     </ul>
                     <ul className="address-area">
                         <li className="single-address">
-                            <span>NEW YORK</span>
-                            <p>8204 Glen Ridge DriveEndicott, NY 13760</p>
+                            <span>Karachi</span>
+                            <p> Suite 702, Trade Avenue, Hasrat Mohani, Karachi.</p>
                         </li>
-                        <li className="single-address">
+                        {/* <li className="single-address">
                             <span>WASHINGTON DC</span>
                             <p>8204 Glen Ridge DriveEndicott, NY 13760</p>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div className="sidebar-bottom-area">
-                    <p>Copyright 2025 <Link href="/">Vernex</Link> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                    <p>Copyright 2025 <Link href="/">apexsurfacessolution</Link> </p>
                 </div>
             </div>
             <header className={`header-area style-1 ${style} ${state.scrollY > 20 ? "sticky" : ""}`}>
                 <div className={`${fluid} d-flex flex-nowrap align-items-center justify-content-between`}>
                     <div className="header-logo">
-                        <Link href={"/"}><img alt="image" className="img-fluid" src="/assets/img/header-logo.svg" /></Link>
+                        <Link href={"/"}><img alt="image" className="img-fluid" src="/assets/img/apex-icon1 (1).png" /></Link>
                     </div>
                     <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
                         <div className="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">
                             <div className="mobile-logo-wrap">
-                                <Link href="/"><img alt="image" src="/assets/img/header-logo.svg" /></Link>
+                                <Link href="/"><img alt="image" src="/assets/img/apex-icon1.png" /></Link>
                             </div>
                             <div className="menu-close-btn" onClick={toggleSidebar}>
                                 <i className="bi bi-x" />

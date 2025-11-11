@@ -12,8 +12,8 @@ const Home1About = ({ sectionGap }) => {
             <div className="col-lg-8 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
               <div className="about-title-area">
                 <div className="section-title">
-                  <span>Building Trust Since 2005</span>
-                  <h2>Experts in Construction Your Excellence.</h2>
+                  <span>Building Trust Since 2003</span>
+                  <h2>Trusted Leaders in Marble, Mining, and Stone Solutions.</h2>
                 </div>
                 <div className="video-and-content">
                   <a data-fancybox="video-player" onClick={openModal} className="video-area">
@@ -29,7 +29,7 @@ const Home1About = ({ sectionGap }) => {
                     </div>
                   </a>
                   <div className="content">
-                    <p>Sed nisl eros, condimentum nec risus sit amet, finibus conguese.Fusen fringilla est libero, sed tempus urna feugiat eu. Curabitur eu feugiat ligu Suspendisse nectoraba porttitor velit go this week and more about.</p>
+                    <p>At <strong>ApexSolutions</strong> , we deliver the finest natural and engineered stones with unmatched quality and precision. From mining and processing to importing and exporting, we ensure every stone meets the highest standards. Our commitment is to transform spaces with strength, elegance, and lasting beauty.</p>
                   </div>
                 </div>
               </div>
@@ -58,22 +58,22 @@ const Home1About = ({ sectionGap }) => {
               <ul>
                 <li>
                   <h5>Who we are</h5>
-                  <p>Sed nisl eros, condimentum nec risussit amet finibus cons sem fusce. Advantage of thes limited-time offers &amp; start.</p>
+                  <p>We provide premium natural and engineered stones, delivering quality and elegance from mine to market.</p>
                 </li>
                 <li>
                   <h5>Our Mission</h5>
-                  <p>Sed nisl eros, condimentum nec risussit amet finibus cons sem fusce. Advantage of thes limited-time offers &amp; start.</p>
+                  <p>To deliver premium natural and engineered stones with quality, precision, and reliability, transforming spaces worldwide.</p>
                 </li>
                 <li>
                   <h5>Core value</h5>
-                  <p>Sed nisl eros, condimentum nec risussit amet finibus cons sem fusce. Advantage of thes limited-time offers &amp; start.</p>
+                  <p>At ApexSolutions, we are guided by quality, integrity, and innovation. We commit to responsible mining and always put our customers first, delivering excellence at every step.</p>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-7 d-lg-block d-none">
             <div className="about-img magnetic-item">
-              <img src="assets/img/home1/about-img.jpg" alt="" />
+              <img src="assets/img/home1/about-img.png" alt="" />
             </div>
           </div>
         </div>

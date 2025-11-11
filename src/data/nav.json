@@ -6,13 +6,13 @@
         "icon": true
     },
     {
-        "id": "3",
+        "id": "2",
         "label": "About",
         "link": "/about",
         "icon": true
     },
     {
-        "id": "4",
+        "id": "3",
         "label": "Minerals",
         "link": "/project",
         "icon": true
@@ -24,7 +24,7 @@
         "icon": true
     },
       {
-        "id": "4",
+        "id": "5",
         "label": "Engineered Stones",
         "link": "/project",
         "icon": true
