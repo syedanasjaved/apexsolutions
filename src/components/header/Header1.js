@@ -111,8 +111,8 @@ const Header1 = ({ style = "", fluid }) => {
                 <div className="sidebar-content-wrap">
                     <div className="title-area">
                         <span>Get In Touch With Us</span>
-                        <h2>Connect With Vernex</h2>
-                        <p>Ready to take the first step towards unlocking opportunity realizing goals, and embracing innovation?</p>
+                        <h2>Connect With Apex Solutions</h2>
+                        <p>Your Trusted Partner in Marble, Mining & Stone Solutions.    </p>
                     </div>
                     <ul className="contact-area">
                         <li>
@@ -280,7 +280,7 @@ const Header1 = ({ style = "", fluid }) => {
                             <span>GET IN TOUCH</span>
                         </div>
                         <Link href="/contact" className="primary-btn d-lg-flex d-none">
-                            Start A Project
+                            Contact Us
                             <svg viewBox="0 0 13 20">
                                 <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                             </svg>
