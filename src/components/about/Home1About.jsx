@@ -13,7 +13,7 @@ const Home1About = ({ sectionGap }) => {
               <div className="about-title-area">
                 <div className="section-title">
                   <span>Building Trust Since 2003</span>
-                  <h2>Trusted Leaders in Marble, Mining, and Stone Solutions.</h2>
+                  <h2>Trusted Leaders in Marble, Minerals & Other Stone Solutions.</h2>
                 </div>
                 <div className="video-and-content">
                   <a data-fancybox="video-player" onClick={openModal} className="video-area">

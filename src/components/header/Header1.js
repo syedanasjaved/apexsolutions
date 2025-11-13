@@ -111,8 +111,8 @@ const Header1 = ({ style = "", fluid }) => {
                 <div className="sidebar-content-wrap">
                     <div className="title-area">
                         <span>Get In Touch With Us</span>
-                        <h2>Connect With Apex Solutions</h2>
-                        <p>Your Trusted Partner in Marble, Mining & Stone Solutions.    </p>
+                        <h2>Connect With Apex Surfaces Solutions</h2>
+                        <p>Your Trusted Partner in Marble, Minerals & Other Stones Solutions.    </p>
                     </div>
                     <ul className="contact-area">
                         <li>
