@@ -10,10 +10,10 @@ const Footer1 = () => {
                         <div className="footer-logo-and-contact-area">
                             <div className="footer-logo-area">
                                 <Link href="/" className="footer-logo">
-                                    <img src="/assets/img/footer-logo.svg" alt="" />
+                                    <img src="/assets/img/apex-icon1 (1).png" alt="" />
                                 </Link>
                                 <div className="footer-content">
-                                    <p>Welcome to Vernex, where innovation meet our passion in a journey that started dream.</p>
+                                    <p>Welcome to Apex Surfaces Solutions, where innovation meet our passion in a journey that started dream.</p>
                                     <ul className="social-list">
                                         <li>
                                             <a href="https://www.linkedin.com/">
@@ -54,7 +54,7 @@ const Footer1 = () => {
                                         </div>
                                         <div className="content">
                                             <span>CALL ANY TIME</span>
-                                            <h6><a href="tel:29658718617">2-965-871-8617</a></h6>
+                                            <h6><a href="tel:+92-21-32424292">+92-21-32424292</a></h6>
                                         </div>
                                     </div>
                                     <svg className="arrow" width={8} height={29} viewBox="0 0 8 29" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@ const Footer1 = () => {
                                         </div>
                                         <div className="content">
                                             <span>ADDRESS</span>
-                                            <h6><a href="#">Dhaka, Bangladesh</a></h6>
+                                            <h6><a href="#">Karachi,Pakistan</a></h6>
                                         </div>
                                     </div>
                                     <svg className="arrow" width={8} height={29} viewBox="0 0 8 29" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +87,7 @@ const Footer1 = () => {
                                         </div>
                                         <div className="content">
                                             <span>SAY HELLO</span>
-                                            <h6><a href="mailto:info@example.com">info@example.com</a></h6>
+                                            <h6><a href="mailto:info@example.com">info@apexsur<br/>facessolution.com</a></h6>
                                         </div>
                                     </div>
                                 </li>
@@ -100,17 +100,17 @@ const Footer1 = () => {
                                 <div className="col-lg-12 order-xl-1 order-2">
                                     <ul className="address-area">
                                         <li className="single-address">
-                                            <span>NEW YORK</span>
-                                            <a href="#">8204 Glen Ridge DriveEndicott, NY 13760</a>
+                                            <span>Karachi</span>
+                                            <a href="#">Suite 702, Trade Avenue, Hasrat Mohani, Karachi.</a>
                                         </li>
-                                        <li className="single-address">
+                                        {/* <li className="single-address">
                                             <span>WASHINGTON DC</span>
                                             <a href="#">8204 Glen Ridge DriveEndicott, NY 13760</a>
                                         </li>
                                         <li className="single-address">
                                             <span>NEW JERSEY</span>
                                             <a href="#">8204 Glen Ridge DriveEndicott, NY 13760</a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 <div className="col-lg-12 order-xl-2 order-1">
@@ -119,17 +119,17 @@ const Footer1 = () => {
                                             <div className="col-xxl-7 col-md-8 col-sm-9">
                                                 <div className="footer-widget">
                                                     <div className="widget-title">
-                                                        <h5>SOLUTIONS</h5>
+                                                        <h5>Products</h5>
                                                     </div>
                                                     <div className="menu-container">
                                                         <ul className="widget-list">
-                                                            <li><Link href="/services/service-details">Residential</Link></li>
-                                                            <li><Link href="/services/service-details">Commercial</Link></li>
-                                                            <li><Link href="/services/service-details">Industrial</Link></li>
-                                                            <li><Link href="/services/service-details">Infrastructure</Link></li>
+                                                            <li><Link href="/services/service-details">Minerals</Link></li>
+                                                            <li><Link href="/services/service-details">Marbles</Link></li>
+                                                            <li><Link href="/services/service-details">Engineered Stones</Link></li>
+                                                            {/* <li><Link href="/services/service-details">Infrastructure</Link></li> */}
                                                         </ul>
                                                         <ul className="widget-list">
-                                                            <li><Link href="/services/service-details">Public Works</Link></li>
+                                                            <li><Link href="/services/service-details">Contact Us</Link></li>
                                                             <li><Link href="/services/service-details">Sustainable</Link></li>
                                                             <li><Link href="/services/service-details">Pre-Construction</Link></li>
                                                             <li><Link href="/services/service-details">Heavy Civil</Link></li>
@@ -146,8 +146,8 @@ const Footer1 = () => {
                                                         <ul className="widget-list">
                                                             <li><Link href="/about">About Us</Link></li>
                                                             <li><Link href="/team">Meet Our Team</Link></li>
-                                                            <li><Link href="/project">Our Project</Link></li>
-                                                            <li><Link href="/blog-grid">Blog &amp; Article</Link></li>
+                                                            <li><Link href="/project">Our Products</Link></li>
+                                                            {/* <li><Link href="/blog-grid">Blog &amp; Article</Link></li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -164,7 +164,7 @@ const Footer1 = () => {
                 <div className="container">
                     <div className="footer-bottom">
                         <div className="copyright-area">
-                            <p>Copyright 2025 <Link href="/">Vernex</Link> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+                            <p>Copyright 2025 <Link href="/">Apexsurfacessolution</Link> </p>
                         </div>
                         <div className="footer-bottom-right">
                             <ul>
