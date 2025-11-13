@@ -55,10 +55,10 @@ const Home1Project = () => {
       <div className="home1-project-section mb-130">
         <div className="container">
           <div className="row gy-4 align-items-center justify-content-between mb-60 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <div className="col-xl-5 col-lg-6 col-md-8">
+            <div className="col-xl-8 col-lg-6 col-md-8">
               <div className="section-title white">
                 <span>Our Projects</span>
-                <h2>Seen Our Working Clean Project.</h2>
+                <h2>Seen Our Marbles | Minerals | Engineered Stones.</h2>
                 <Link href="/project" className="primary-btn white">
                   View All Project
                   <svg viewBox="0 0 13 20">
