@@ -33,16 +33,16 @@ const Home1Banner = () => {
                     <Swiper {...settings} className="swiper home1-banner-slider">
                         <div className="swiper-wrapper">
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner2.png)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner6.png)' }} />
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner5.png)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner2.png)' }} />
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slide">
                                 <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner.png)' }} />
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/about-img.jpg)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner7.png)' }} />
                             </SwiperSlide>
                         </div>
                     </Swiper>
