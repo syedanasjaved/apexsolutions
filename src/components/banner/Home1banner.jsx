@@ -33,26 +33,26 @@ const Home1Banner = () => {
                     <Swiper {...settings} className="swiper home1-banner-slider">
                         <div className="swiper-wrapper">
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img1.jpg)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner6.png)' }} />
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img2.jpg)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner2.png)' }} />
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img3.jpg)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner.png)' }} />
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img4.jpg)' }} />
+                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner7.png)' }} />
                             </SwiperSlide>
                         </div>
                     </Swiper>
                 </div>
             </div>
             <div className="banner-content">
-                <h1>Building Your Dreams With Precision</h1>
+                <h1>Shaping the Future with Timeless Stone</h1>
                 <Link href="/contact" className="primary-btn2 white-bg">
                     <span>
-                        Start A Project
+                        Contact Us
                         <svg viewBox="0 0 13 20">
                             <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                         </svg>
