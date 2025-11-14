@@ -4,7 +4,7 @@ import React from 'react'
 const Breadcrum = ({ pageTitle, pagename,content="" }) => {
     return (
        
-        <div className="breadcrumb-section mb-100" style={{backgroundImage: 'linear-gradient(91.45deg, #000000 17.96%, rgba(0, 0, 0, 0.9) 44.49%, rgba(0, 0, 0, 0.8) 67.58%, rgba(0, 0, 0, 0.5) 98.52%), url(/assets/img/home1/home-banner5.png)'}}>  
+        <div className="breadcrumb-section " style={{backgroundImage: 'linear-gradient(91.45deg, #000000 17.96%, rgba(0, 0, 0, 0.9) 44.49%, rgba(0, 0, 0, 0.8) 67.58%, rgba(0, 0, 0, 0.5) 98.52%), url(/assets/img/home1/home-banner5.png)'}}>  
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

@@ -67,6 +67,7 @@ const AboutPage = () => {
     <div>
       <Header1 fluid={"container-fluid"} />
       <Breadcrum content='View Our Story' pageTitle={'About Us'} pagename={'About Us'} />
+      <div className='mt-100'></div>
       <Home1About />
      
        <Home1Banner2 />

@@ -14,19 +14,19 @@
     {
         "id": "3",
         "label": "Minerals",
-        "link": "/project",
+        "link": "/products/minerals",
         "icon": true
     },
       {
         "id": "4",
         "label": "Marbles",
-        "link": "/project",
+        "link": "/products/marbles",
         "icon": true
     },
       {
         "id": "5",
         "label": "Engineered Stones",
-        "link": "/project",
+        "link": "/products/engineered",
         "icon": true
     }
 
