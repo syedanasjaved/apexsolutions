@@ -102,7 +102,7 @@ const Header1 = ({ style = "", fluid }) => {
 
                 <div className="sidebar-logo-area d-flex justify-content-between align-items-center">
                     <div className="sidebar-logo-wrap">
-                        <Link href="/"><img alt="image" src="/assets/img/apex-icon1 (1).png" /></Link>
+                        <Link href="/"><img alt="image" src="/assets/img/apex-icon1.png" /></Link>
                     </div>
                     <div className="right-sidebar-close-btn" onClick={toggleRightSidebar}>
                         <i className="bi bi-x" />
@@ -183,7 +183,7 @@ const Header1 = ({ style = "", fluid }) => {
             <header className={`header-area style-1 ${style} ${state.scrollY > 20 ? "sticky" : ""}`}>
                 <div className={`${fluid} d-flex flex-nowrap align-items-center justify-content-between`}>
                     <div className="header-logo">
-                        <Link href={"/"}><img alt="image" className="img-fluid" src="/assets/img/apex-icon1 (1).png" /></Link>
+                        <Link href={"/"}><img alt="image" className="img-fluid" src="/assets/img/apex-icon1.png" /></Link>
                     </div>
                     <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
                         <div className="mobile-logo-area d-lg-none d-flex align-items-center justify-content-between">

@@ -56,7 +56,7 @@ const ProductCategoryPage = ({ params }) => {
           </div>
 
           {/* Load More Button */}
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <button className="primary-btn2 bounce_up">
                 <span>
@@ -67,7 +67,7 @@ const ProductCategoryPage = ({ params }) => {
                 </span>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

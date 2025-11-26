@@ -17,7 +17,7 @@ const Home1Banner = () => {
             speed: 1500,
             effect: 'fade',
             autoplay: {
-                delay: 2500, // Autoplay duration in milliseconds
+                delay: 2500, 
                 disableOnInteraction: false,
             },
             pagination: {
@@ -32,18 +32,17 @@ const Home1Banner = () => {
                 <div className="col-lg-12">
                     <Swiper {...settings} className="swiper home1-banner-slider">
                         <div className="swiper-wrapper">
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner6.png)' }} />
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner2.png)' }} />
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner.png)' }} />
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home-banner7.png)' }} />
-                            </SwiperSlide>
+                           <SwiperSlide>
+    <div className="banner-bg slide-1" />
+</SwiperSlide><SwiperSlide>
+    <div className="banner-bg slide-2" />
+</SwiperSlide>
+                           
+<SwiperSlide>
+    <div className="banner-bg slide-3" />
+</SwiperSlide><SwiperSlide>
+    <div className="banner-bg slide-4" />
+</SwiperSlide>
                         </div>
                     </Swiper>
                 </div>

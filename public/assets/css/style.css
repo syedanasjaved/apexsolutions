@@ -4472,6 +4472,42 @@ header.style-3.two.sticky {
   min-height: 820px;
   animation: large 26s linear infinite alternate;
 }
+.slide-1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+  url('/assets/img/home1/Tiles.jpg');
+}
+
+.slide-2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url('/assets/img/home1/Iris-1.jpg');
+}
+
+.slide-3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url('/assets/img/home1/Tiles 1.jpg');
+}
+
+.slide-4 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    
+     url('/assets/img/home1/CALCIUM CARBONATE 1.jpg');
+}
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home1-banner-section .banner-bg {
     min-height: 95vh;
@@ -6970,7 +7006,7 @@ header.style-3.two.sticky {
  15. Home1 Footer Top Banner Section 
 ========================================*/
 .home1-footer-top-banner-section {
-  background-image: linear-gradient(91.45deg, #000000 27.11%, rgba(0, 0, 0, 0.9) 53.38%, rgba(0, 0, 0, 0.8) 75.41%, rgba(0, 0, 0, 0.5) 98.52%), url(../img/home1/home-banner2.png);
+  background-image: linear-gradient(91.45deg, #000000 27.11%, rgba(0, 0, 0, 0.9) 53.38%, rgba(0, 0, 0, 0.8) 75.41%, rgba(0, 0, 0, 0.5) 98.52%), url(../img/home1/Iris-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -18282,6 +18318,20 @@ header.style-3.two.sticky {
   letter-spacing: 0.03em;
   margin-bottom: 0;
 }
+.breadcrumb-bg {
+  background-image: linear-gradient(
+      91.45deg,
+      #000000 17.96%,
+      rgba(0, 0, 0, 0.9) 44.49%,
+      rgba(0, 0, 0, 0.8) 67.58%,
+      rgba(0, 0, 0, 0.5) 98.52%
+    ),
+    url('/assets/img/home1/CALACUTTA LINCOLN 2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 1399px) {
   .breadcrumb-section .banner-content h1 {
     font-size: 65px;

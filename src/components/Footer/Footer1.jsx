@@ -10,7 +10,7 @@ const Footer1 = () => {
                         <div className="footer-logo-and-contact-area">
                             <div className="footer-logo-area">
                                 <Link href="/" className="footer-logo">
-                                    <img src="/assets/img/apex-icon1 (1).png" alt="" />
+                                    <img src="/assets/img/apex-icon1.png" alt="" />
                                 </Link>
                                 <div className="footer-content">
                                     <p>Welcome to Apex Surfaces Solutions, where innovation meet our passion in a journey that started dream.</p>
@@ -27,12 +27,12 @@ const Footer1 = () => {
                                                 <span>Facebook</span>
                                             </a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="https://twitter.com/">
                                                 <i className="bi bi-twitter-x" />
                                                 <span>Twitter</span>
                                             </a>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <a href="https://www.instagram.com/">
                                                 <i className="bi bi-instagram" />
@@ -123,16 +123,16 @@ const Footer1 = () => {
                                                     </div>
                                                     <div className="menu-container">
                                                         <ul className="widget-list">
-                                                            <li><Link href="/services/service-details">Minerals</Link></li>
-                                                            <li><Link href="/services/service-details">Marbles</Link></li>
-                                                            <li><Link href="/services/service-details">Engineered Stones</Link></li>
+                                                            <li><Link href="/products/minerals">Minerals</Link></li>
+                                                            <li><Link href="/products/marbles">Marbles</Link></li>
+                                                            <li><Link href="/products/engineered">Engineered Stones</Link></li>
                                                             {/* <li><Link href="/services/service-details">Infrastructure</Link></li> */}
                                                         </ul>
                                                         <ul className="widget-list">
-                                                            <li><Link href="/services/service-details">Contact Us</Link></li>
-                                                            <li><Link href="/services/service-details">Sustainable</Link></li>
+                                                            <li><Link href="/contact">Contact Us</Link></li>
+                                                            {/* <li><Link href="/services/service-details">Sustainable</Link></li>
                                                             <li><Link href="/services/service-details">Pre-Construction</Link></li>
-                                                            <li><Link href="/services/service-details">Heavy Civil</Link></li>
+                                                            <li><Link href="/services/service-details">Heavy Civil</Link></li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -145,8 +145,8 @@ const Footer1 = () => {
                                                     <div className="menu-container">
                                                         <ul className="widget-list">
                                                             <li><Link href="/about">About Us</Link></li>
-                                                            <li><Link href="/team">Meet Our Team</Link></li>
-                                                            <li><Link href="/project">Our Products</Link></li>
+                                                            <li><Link href="/contact">Connect With Us</Link></li>
+                                                            <li><Link href="/allproducts">Our Products</Link></li>
                                                             {/* <li><Link href="/blog-grid">Blog &amp; Article</Link></li> */}
                                                         </ul>
                                                     </div>

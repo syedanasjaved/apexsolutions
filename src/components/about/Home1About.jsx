@@ -73,7 +73,7 @@ const Home1About = ({ sectionGap }) => {
           </div>
           <div className="col-lg-7 d-lg-block d-none">
             <div className="about-img magnetic-item">
-              <img src="assets/img/home1/about-img.png" alt="" />
+              <img src="assets/img/home1/about-img.jpg" alt="" />
             </div>
           </div>
         </div>
