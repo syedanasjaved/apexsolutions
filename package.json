@@ -6,9 +6,11 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "export": "next export"
     },
     "dependencies": {
+        "@emailjs/browser": "^4.4.1",
         "gsap": "^3.12.5",
         "next": "14.2.4",
         "react": "^18",
@@ -17,6 +19,7 @@
         "react-creative-cursor": "^1.2.7",
         "react-dom": "^18",
         "react-modal-video": "^2.0.2",
+        "react-toastify": "^11.0.5",
         "swiper": "^8.4.5",
         "wowjs": "^1.1.3"
     },

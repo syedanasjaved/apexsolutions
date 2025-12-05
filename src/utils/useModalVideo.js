@@ -1,24 +1,36 @@
-"use client"
-import { useState, useCallback } from "react";
-import ModalVideo from "react-modal-video";
+"use client";
+import { useState } from "react";
 
-const useModalVideo = (videoId = "", options = {}) => {
-  const [isOpen, setOpen] = useState(false);
+export default function useModalVideo() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
 
-  const openModal = useCallback(() => setOpen(true), []);
-  const closeModal = useCallback(() => setOpen(false), []);
+  const openModal = (url) => {
+    setVideoUrl(url);
+    setIsOpen(true);
+  };
 
-  const Modal = () => (
-    <ModalVideo
-      channel={"youtube"}
-      isOpen={isOpen}
-      videoId={"r4KpWiK08vM"}
-      animationSpeed= {350}
-      onClose={closeModal}
-    />
-  );
+  const closeModal = () => {
+    setIsOpen(false);
+    setVideoUrl("");
+  };
 
-  return { openModal, Modal };
-};
+  const Modal = () =>
+    isOpen ? (
+      <div className="video-modal-overlay" onClick={closeModal}>
+        <div className="video-modal" onClick={(e) => e.stopPropagation()}>
+          <iframe
+            width="100%"
+            height="100%"
+            src={videoUrl.replace("watch?v=", "embed/")}
+            title="Video Player"
+            frameBorder="0"
+            allow="autoplay; fullscreen"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+    ) : null;
 
-export default useModalVideo;
+  return { Modal, openModal, closeModal };
+}

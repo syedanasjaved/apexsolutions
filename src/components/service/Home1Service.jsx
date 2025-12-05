@@ -8,13 +8,13 @@ const Home1Service = () => {
                 <div className="row justify-content-between align-items-end mb-80 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div className="col-lg-4">
                         <div className="section-title">
-                            <span>Our Construction Services</span>
+                            <span>Our Services</span>
                             <h2>Services Tailored You.</h2>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="section-content">
-                            <p>We understand your needs and delivery digitaloi marketing through unique selling oneto homeles proposition Our team of expert.</p>
+                            <p>At ApexSolutions, we specialize in the mining of premium natural stones and provide seamless import and export services, delivering quality marble and engineered stones worldwide.</p>
                         </div>
                     </div>
                 </div>
@@ -22,61 +22,77 @@ const Home1Service = () => {
                     <div className="col-lg-12">
                         <ul className="sevices-wrap">
                             <li className="single-services mb-20 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Residential <span>Construction</span></Link></h3>
+                                <h3><Link href="/products/minerals"> <span>Marbles </span></Link></h3>
                                 <div className="content">
-                                    <p>Health and care consulting refers to the practice of providing expert
-                                        advice and guidance.</p>
+                                    <p>Marbles that redefine luxury and elevate every space</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/services">Family Homes</Link></li>
-                                        <li><Link href="/services">Single Home</Link></li>
-                                        <li><Link href="/services">Custom Homes</Link></li>
-                                        <li><Link href="/services">Home Additions</Link></li>
-                                        <li><Link href="/services">Renovations</Link></li>
-                                        <li><Link href="/services">Remodeling</Link></li>
+                                        <li><Link href="/products/minerals"> ARMANI GREY </Link></li>
+                                        <li><Link href="/products/minerals">SILVER TERVENTINE </Link></li>
+                                        <li><Link href="/products/minerals">ZIARAT WHITE</Link></li>
+                                        <li><Link href="/products/minerals">BLACK PANTHER</Link></li>
+                                        <li><Link href="/products/minerals">MARQUIQNA</Link></li>
+                                        <li><Link href="/products/minerals">SILVER DRAGON</Link></li>
+                                        <li><Link href="/products/minerals"> GREEN ONYX </Link></li>
+                                        <li><Link href="/products/minerals"> TEAK </Link></li>
+                                        <li><Link href="/products/minerals">IRESH WHITE </Link></li>
+                                        <li><Link href="/products/minerals">ARBESCATO </Link></li>
+                                        <li><Link href="/products/minerals">CRYSTAL WHITE </Link></li>
+                                        <li><Link href="/products/minerals"> WINTER BREEZE </Link></li>
+                                        <li><Link href="/products/minerals">BLACK POOL </Link></li>
+                                        <li><Link href="/products/minerals"> OCEANIC WHITE </Link></li>
+                                     
                                     </ul>
                                 </div>
                                 <div className="button-area">
-                                    <Link href="/services/service-details">
+                                    <Link href="/products/marbles">
                                         <i className="bi bi-arrow-right" />
                                     </Link>
                                 </div>
                             </li>
                             <li className="single-services mb-20 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Commercial <span>Construction</span></Link></h3>
+                                <h3><Link href="/products/minerals/service-details"> <span> Stones </span></Link></h3>
                                 <div className="content">
-                                    <p>Health and care consulting refers to the practice of providing expert
-                                        advice and guidance.</p>
+                                      <p>Engineered for strength, designed for elegance.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/services">Office Buildings</Link></li>
-                                        <li><Link href="/services">Retail Spaces</Link></li>
-                                        <li><Link href="/services">Restaurants</Link></li>
-                                        <li><Link href="/services">Hotels</Link></li>
-                                        <li><Link href="/services">Hospitality</Link></li>
-                                        <li><Link href="/services">Medical Facilities</Link></li>
+                                        <li><Link href="/products/engineered"> CARRARA CLOUD   </Link></li>
+                                        <li><Link href="/products/engineered">  CALACUTTA PANDA  </Link></li>
+                                        <li><Link href="/products/engineered">   ARBESCATO VIOLA </Link></li>
+                                        <li><Link href="/products/engineered">  ARBESCATO CORCHIA  </Link></li>
+                                        <li><Link href="/products/engineered">  CALACUTTA FOREST  </Link></li>
+                                        <li><Link href="/products/engineered">  CALACUTTA ORO  </Link></li>
+                                        <li><Link href="/products/engineered">  CALACUTTA LINCOLN  </Link></li>
+                                        <li><Link href="/products/engineered">  BLACK AND WHITE MURAL  </Link></li>
+                                        <li><Link href="/products/engineered">   ARMANI CLASSIC </Link></li>
+                                        <li><Link href="/products/engineered">  CALACUTTA TROPICAL  </Link></li>
+                                        <li><Link href="/products/engineered">   CALACUTTA MINSIC </Link></li>
+                                        <li><Link href="/products/engineered">    CALACUTA DREAM BLACK</Link></li>
+                                        <li><Link href="/products/engineered">CARRARA BELLA    </Link></li>
+                                        <li><Link href="/products/engineered">   ICE WHITE  </Link></li>
+                                        <li><Link href="/products/engineered">   AQUA CANYON </Link></li>
+                                        <li><Link href="/products/engineered">    MOST GREY </Link></li>
+                                        <li><Link href="/products/engineered">   PURE WHITE </Link></li>
+                                         <li><Link href="/products/engineered">   SILVER GREY </Link></li>
                                     </ul>
                                 </div>
                                 <div className="button-area">
-                                    <Link href="/services/service-details">
+                                    <Link href="/products/engineered">
                                         <i className="bi bi-arrow-right" />
                                     </Link>
                                 </div>
                             </li>
                             <li className="single-services wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <h3><Link href="/services/service-details">Industrial <span>Construction</span></Link></h3>
+                                <h3><Link href="/products/minerals"> <span>Minerals</span></Link></h3>
                                 <div className="content">
-                                    <p>Health and care consulting refers to the practice of providing expert
-                                        advice and guidance.</p>
+                                    <p>Premium minerals sourced with purity and precision.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/services">Factories</Link></li>
-                                        <li><Link href="/services">Warehouses</Link></li>
-                                        <li><Link href="/services">Distribution Centers</Link></li>
-                                        <li><Link href="/services">Manufacturing Plants</Link></li>
-                                        <li><Link href="/services">Energy</Link></li>
-                                        <li><Link href="/services">Utilities</Link></li>
+                                        <li><Link href="/products/marbles">COPPER </Link></li>
+                                        <li><Link href="/products/marbles">BAUXITE </Link></li>
+                                        <li><Link href="/products/marbles">CALCIUM CARBONATE </Link></li>
+                                        <li><Link href="/products/marbles">QUARTZ</Link></li>
                                     </ul>
                                 </div>
                                 <div className="button-area">
-                                    <Link href="/services/service-details">
+                                    <Link href="/products/minerals">
                                         <i className="bi bi-arrow-right" />
                                     </Link>
                                 </div>
@@ -84,9 +100,9 @@ const Home1Service = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-lg-12 d-flex justify-content-center">
-                        <Link href="/services" className="primary-btn2 bounce_up">
+                        <Link href="/products/minerals" className="primary-btn2 bounce_up">
                             <span>
                                 View All Services
                                 <svg viewBox="0 0 13 20">
@@ -95,7 +111,7 @@ const Home1Service = () => {
                             </span>
                         </Link>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 
