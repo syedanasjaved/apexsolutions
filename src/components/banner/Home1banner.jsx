@@ -17,7 +17,7 @@ const Home1Banner = () => {
             speed: 1500,
             effect: 'fade',
             autoplay: {
-                delay: 2500, // Autoplay duration in milliseconds
+                delay: 2500, 
                 disableOnInteraction: false,
             },
             pagination: {
@@ -32,27 +32,26 @@ const Home1Banner = () => {
                 <div className="col-lg-12">
                     <Swiper {...settings} className="swiper home1-banner-slider">
                         <div className="swiper-wrapper">
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img1.jpg)' }} />
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img2.jpg)' }} />
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img3.jpg)' }} />
-                            </SwiperSlide>
-                            <SwiperSlide className="swiper-slide">
-                                <div className="banner-bg" style={{ backgroundImage: 'linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(assets/img/home1/home1-banner-img4.jpg)' }} />
-                            </SwiperSlide>
+                           <SwiperSlide>
+    <div className="banner-bg slide-1" />
+</SwiperSlide><SwiperSlide>
+    <div className="banner-bg slide-2" />
+</SwiperSlide>
+                           
+<SwiperSlide>
+    <div className="banner-bg slide-3" />
+</SwiperSlide><SwiperSlide>
+    <div className="banner-bg slide-4" />
+</SwiperSlide>
                         </div>
                     </Swiper>
                 </div>
             </div>
             <div className="banner-content">
-                <h1>Building Your Dreams With Precision</h1>
+                <h1>Shaping the Future with Timeless Stone</h1>
                 <Link href="/contact" className="primary-btn2 white-bg">
                     <span>
-                        Start A Project
+                        Contact Us
                         <svg viewBox="0 0 13 20">
                             <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                         </svg>

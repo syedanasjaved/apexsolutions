@@ -10,8 +10,8 @@ const Home1FooterTop = () => {
                         <div className="col-lg-7">
                             <div className="banner-content">
                                 <div className="section-title white wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <span>Building Your Vision</span>
-                                    <h2>Let's Build Dream Something Amazing.</h2>
+                                    <span>Globally Deliver Marble And Stone</span>
+                                    <h2>Let's Work Together</h2>
                                 </div>
                                 <div className="button-area wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <Link href="/contact" className="primary-btn2 white-bg">

@@ -308,13 +308,13 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="/assets/img/fav-icon.svg"
+          href="/assets/img/apex-icon1.png"
           type="image/x-icon"
           sizes="16x16"
         />
-        <meta name="description" content="Your description here" />
+        <meta name="description" content="marbles | minerals | engineered stones " />
         <meta name="keywords" content="next.js, SEO, meta tags" />
-        <title>Vernex- Architecture & Construction Website Template.</title>
+        <title>Apex | Surfaces | Solution.</title>
 
         {/* GSAP Scripts */}
         <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" onLoad={() => { window.gsap.registerPlugin(window.ScrollTrigger); }} />

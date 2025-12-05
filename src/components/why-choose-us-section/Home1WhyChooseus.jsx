@@ -12,12 +12,12 @@ const Home1WhyChooseus = () => {
           <div className="why-choose-us-content-wrap">
             <div className="section-title wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
               <span>Why Choose Us</span>
-              <h2>Building Your Dreams.</h2>
-              <p>We understand your needs and delivery digitaloi marketing through unique selling oneto homeles proposition Our team of expert.</p>
+              <h2>Quality You Can Trust.</h2>
+              <p>Delivering premium natural and engineered stones with unmatched precision, durability, and excellence.</p>
             </div>
             <div className="why-choose-us-content">
-              <h5>SINCE 1962</h5>
-              <p>Sed Nissl eros, condominium nec risussit abet finibus cons sem fused. Advantage of these limited-time offers &amp; start. Here are various categories that can be featured on a construction website to cover different aspects and specialties within the industry.</p>
+              <h5>SINCE 2003</h5>
+              <p>With over two decades of experience, ApexSolutions has been delivering premium stones with expertise, reliability, and excellence.</p>
               <Link href="/about" className="primary-btn">
                 About Us More
                 <svg viewBox="0 0 13 20">
@@ -32,27 +32,27 @@ const Home1WhyChooseus = () => {
             <ul className="counter-list">
               <li className="single-counter">
                 <div className="number">
+                  <h2 className="counter"><CountUp end={200}  /></h2>
+                </div>
+                <div className="content">
+                  <p>Export Shipments over</p>
+                </div>
+              </li>
+              <li className="single-counter">
+                <div className="number">
+                  <h2 className="counter"><CountUp end={200}  /></h2>
+                </div>
+                <div className="content">
+                  <p>Import Shipments over</p>
+                </div>
+              </li>
+              <li className="single-counter">
+                <div className="number">
                   <h2 className="counter"><CountUp end={150}  /></h2>
+                  {/* <span>K</span> */}
                 </div>
                 <div className="content">
-                  <p>Project Completed</p>
-                </div>
-              </li>
-              <li className="single-counter">
-                <div className="number">
-                  <h2 className="counter"><CountUp end={5}  /></h2>
-                </div>
-                <div className="content">
-                  <p>Winning Award</p>
-                </div>
-              </li>
-              <li className="single-counter">
-                <div className="number">
-                  <h2 className="counter"><CountUp end={1}  /></h2>
-                  <span>K</span>
-                </div>
-                <div className="content">
-                  <p>Awesome Client</p>
+                  <p>Awesome Clients Over</p>
                 </div>
               </li>
             </ul>

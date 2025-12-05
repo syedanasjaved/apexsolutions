@@ -23,12 +23,12 @@ export default function Home() {
       <Home1Service />
       <Home1WhyChooseus />
       <Home1Project />
-      <Home1Support />
+      {/* <Home1Support /> */}
       <Home1Banner2 />
-      <Home1Team/>
-      <Home1Testimonial />
-      <Home1Faq />
-      <Home1blog />
+      {/* <Home1Team/> */}
+      {/* <Home1Testimonial /> */}
+      {/* <Home1Faq /> */}
+      {/* <Home1blog /> */}
       <Home1FooterTop />
       <Footer1 />
     </>
