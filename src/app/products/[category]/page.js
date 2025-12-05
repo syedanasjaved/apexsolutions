@@ -6,6 +6,14 @@ import Footer1 from "@/components/Footer/Footer1";
 import Link from "next/link";
 import { productData } from "@/data/productData";
 
+// ✅ Static export: provide all dynamic paths
+export function generateStaticParams() {
+  // Get all keys from productData (each key is a category)
+  return Object.keys(productData).map((category) => ({
+    category,
+  }));
+}
+
 const ProductCategoryPage = ({ params }) => {
   const category = params.category;
 
@@ -37,15 +45,12 @@ const ProductCategoryPage = ({ params }) => {
               >
                 <div className="project-card two magnetic-item">
                   <div className="project-img-wrap">
-                    <Link
-                      href="#"
-                      className="project-img"
-                    >
+                    <Link href="#" className="project-img">
                       <img src={item.img} alt={item.title} />
                     </Link>
                   </div>
                   <div className="project-content">
-                    <span>{item.client}</span>
+                    
                     <h4>
                       <Link href="#">{item.title}</Link>
                     </h4>
@@ -54,20 +59,6 @@ const ProductCategoryPage = ({ params }) => {
               </div>
             ))}
           </div>
-
-          {/* Load More Button */}
-          {/* <div className="row">
-            <div className="col-lg-12 d-flex justify-content-center">
-              <button className="primary-btn2 bounce_up">
-                <span>
-                  Load More
-                  <svg viewBox="0 0 13 20">
-                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
 

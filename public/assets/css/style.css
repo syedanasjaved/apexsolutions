@@ -105,14 +105,20 @@ Version: 1.0
 :root {
   --font-kanit: "Kanit", sans-serif;
   --font-inter: "Inter", sans-serif;
+
   --primary-color: #000000;
   --primary-color-opc: 0, 0, 0;
-  --primary-color2: #F94834;
-  --primary-color2-opc: 249, 72, 52;
+
+  /* Updated Blue */
+  --primary-color2: #3B82F6;
+  --primary-color2-opc: 59, 130, 246;
+
   --title-color: #000000;
   --title-color-opc: 0, 0, 0;
+
   --white-color: #fff;
   --paragraph-color: #00000099;
+
   --border-color: #EEEEEE;
   --border-color-opc: 230, 230, 230;
 }
@@ -22842,3 +22848,23 @@ header.style-3.two.sticky {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
+
+
+.video-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+}
+
+.video-modal {
+  width: 80%;
+  max-width: 900px;
+  height: 60vh;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}

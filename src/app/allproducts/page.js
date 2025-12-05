@@ -7,19 +7,19 @@ import React from 'react'
 
 const projectData = [
     {
-        img: "/assets/img/APEX WEBSITE PICTURES/MINERALS/COPPER.jpg",
+        img: "/assets/img/APEX WEBSITE PICTURES/MInerals/COPPER.jpg",
         title: "Minerals",
         delay: "200ms",
         link: "/products/minerals"
     },
     {
-        img: "/assets/img/APEX WEBSITE PICTURES/MARBLES/BLACK PANTHER.jpg",
+        img: "/assets/img/APEX WEBSITE PICTURES/MARBLES/SILVER TERVENTINE.jpg",
         title: "Marbles",
         delay: "400ms",
         link: "/products/marbles"    
     },
     {
-        img: "/assets/img/APEX WEBSITE PICTURES/ENGINEERED STONE/CALACUTTA DREAM BLACK.jpg",
+        img: "/assets/img/APEX WEBSITE PICTURES/ENGINEERED STONE/PURE WHITE.jpg",
         title: "Engineered Stones",
         delay: "600ms",
         link: "/products/engineered"   

@@ -71,7 +71,7 @@ const AboutPage = () => {
       <Home1About />
      
        <Home1Banner2 />
-     <Home1Faq />
+     {/* <Home1Faq /> */}
       {/* <div className="home1-team-section mb-130">
         <div className="container">
           <div className="row gy-5 align-items-center justify-content-between mb-70">
