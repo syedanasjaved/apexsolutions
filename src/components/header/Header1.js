@@ -161,7 +161,7 @@ const Header1 = ({ style = "", fluid }) => {
                 src="/assets/img/APX Logo.png"
                 alt="logo"
                 style={{
-                  width: "105px",
+                  width: "85px",
                   height: "auto",
                   objectFit: "contain",
                 }}

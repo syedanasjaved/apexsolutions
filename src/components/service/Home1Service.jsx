@@ -26,20 +26,20 @@ const Home1Service = () => {
                                 <div className="content">
                                     <p>Marbles that redefine luxury and elevate every space</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/products/minerals"> ARMANI GREY </Link></li>
-                                        <li><Link href="/products/minerals">SILVER TERVENTINE </Link></li>
-                                        <li><Link href="/products/minerals">ZIARAT WHITE</Link></li>
-                                        <li><Link href="/products/minerals">BLACK PANTHER</Link></li>
-                                        <li><Link href="/products/minerals">MARQUIQNA</Link></li>
-                                        <li><Link href="/products/minerals">SILVER DRAGON</Link></li>
-                                        <li><Link href="/products/minerals"> GREEN ONYX </Link></li>
-                                        <li><Link href="/products/minerals"> TEAK </Link></li>
-                                        <li><Link href="/products/minerals">IRESH WHITE </Link></li>
-                                        <li><Link href="/products/minerals">ARBESCATO </Link></li>
-                                        <li><Link href="/products/minerals">CRYSTAL WHITE </Link></li>
-                                        <li><Link href="/products/minerals"> WINTER BREEZE </Link></li>
-                                        <li><Link href="/products/minerals">BLACK POOL </Link></li>
-                                        <li><Link href="/products/minerals"> OCEANIC WHITE </Link></li>
+                                        <li><Link href="/products/marbles"> ARMANI GREY </Link></li>
+                                        <li><Link href="/products/marbles">SILVER TERVENTINE </Link></li>
+                                        <li><Link href="/products/marbles">ZIARAT WHITE</Link></li>
+                                        <li><Link href="/products/marbles">BLACK PANTHER</Link></li>
+                                        <li><Link href="/products/marbles">MARQUIQNA</Link></li>
+                                        <li><Link href="/products/marbles">SILVER DRAGON</Link></li>
+                                        <li><Link href="/products/marbles"> GREEN ONYX </Link></li>
+                                        <li><Link href="/products/marbles"> TEAK </Link></li>
+                                        <li><Link href="/products/marbles">IRESH WHITE </Link></li>
+                                        <li><Link href="/products/marbles">ARBESCATO </Link></li>
+                                        <li><Link href="/products/marbles">CRYSTAL WHITE </Link></li>
+                                        <li><Link href="/products/marbles"> WINTER BREEZE </Link></li>
+                                        <li><Link href="/products/marbles">BLACK POOL </Link></li>
+                                        <li><Link href="/products/marbles"> OCEANIC WHITE </Link></li>
                                      
                                     </ul>
                                 </div>
@@ -85,10 +85,10 @@ const Home1Service = () => {
                                 <div className="content">
                                     <p>Premium minerals sourced with purity and precision.</p>
                                     <ul className="tag-list">
-                                        <li><Link href="/products/marbles">COPPER </Link></li>
-                                        <li><Link href="/products/marbles">BAUXITE </Link></li>
-                                        <li><Link href="/products/marbles">CALCIUM CARBONATE </Link></li>
-                                        <li><Link href="/products/marbles">QUARTZ</Link></li>
+                                        <li><Link href="/products/minerals">COPPER </Link></li>
+                                        <li><Link href="/products/minerals">BAUXITE </Link></li>
+                                        <li><Link href="/products/minerals">CALCIUM CARBONATE </Link></li>
+                                        <li><Link href="/products/minerals">QUARTZ</Link></li>
                                     </ul>
                                 </div>
                                 <div className="button-area">

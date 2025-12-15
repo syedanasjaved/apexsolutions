@@ -39,18 +39,17 @@ const ProductCategoryPage = ({ params }) => {
             {data.items.map((item, index) => (
               <div
                 key={index}
-                className="col-lg-4 col-md-6 wow animate fadeInDown"
-                data-wow-delay={`${(index + 1) * 200}ms`}
-                data-wow-duration="1500ms"
+                className="col-lg-3 col-md-4 col-sm-6 wow animate fadeInDown"
+                // data-wow-delay={`${(index + 1) * 200}ms`}
+                // data-wow-duration="500ms"s
               >
-                <div className="project-card two magnetic-item">
+                <div className="project-card two magnetic-item small-card">
                   <div className="project-img-wrap">
                     <Link href="#" className="project-img">
                       <img src={item.img} alt={item.title} />
                     </Link>
                   </div>
                   <div className="project-content">
-                    
                     <h4>
                       <Link href="#">{item.title}</Link>
                     </h4>
